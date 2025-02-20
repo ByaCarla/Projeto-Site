@@ -19,7 +19,7 @@
             font-family: 'Times New Roman', Times, serif;
         }
         div#area{
-            font: normal 20pt Arial;
+            font: normal 12pt Arial;
             background-color:darksalmon;
             color:slateblue;
             width: 200px;
@@ -55,7 +55,7 @@
             <ul>
             <li>Uma mistura dos dois anteriores.</li>
             </ul>
-            <h4>Descobrindo o meu TDAH</h4>
+            <h4>Minha descoberta sobre o TDAH</h4>
         </main>
     </header>
 </body>
@@ -67,6 +67,22 @@
             a.addEventListener('click', clicar)
             a.addEventListener('mouseenter', entrar)
             a.addEventListener('mouseout', sair)
+            function clicar() {
+                a.innerText = 'Será que eu tenho TDAH?'
+                a.style.background = 'Pink'
+            }
+            function entrar() {
+                a.innerText = 'Não é possível!'
+                a.style.background = 'Blue'
+            }
+            function sair() {
+                a.innerText = 'Sim, eu tenho!'
+                a.styler.background = 'White'
+            }
 
         </script>
+        <header>
+            <p>Caro leitor(a), eu sempre me senti diferente das pessoas ao meu redor. Desde criança, eu <i>hiperfocava</i> nos assuntos que despertavam meu interesse, mas quando se tratava de algo que não chamava minha atenção, a <i>procrastinação</i> tomava conta. Além disso, sempre fui <u>impulsiva, curiosa e cheia de vontade de explorar o mundo</u>. Na vida adulta, comecei a perceber como isso afetava minha rotina. Eu me inscrevia em vários cursos porque tudo me parecia fascinante, mas raramente conseguia concluí-los. A procrastinação era constante, e minha memória me pregava peças — esquecia compromissos importantes com frequência, o que, inevitavelmente, impactava não só a minha vida, mas também a de quem estava ao meu redor.Foi então que descobri a <strong>Dra. Ana Beatriz</strong>, psiquiatra que também tem TDAH. Em seus vídeos, ela explicava o transtorno de uma forma que parecia descrever exatamente o que eu vivia. Aquilo fez tanto sentido para mim que decidi criar um plano de ação por conta própria, para entender melhor minhas dificuldades e buscar formas de lidar com elas.</p>
+        </header>
+    
 </html>
